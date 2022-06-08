@@ -26,14 +26,10 @@ function App() {
           ) : (
             <>
               <img src={image} alt='Rick & Morty' className='img-home' />
-
               <button onClick={requestApi} className="btn-search">Buscar Personajes</button>
-
             </>
           )
         }
-
-
       </header>
     </div>
   );
